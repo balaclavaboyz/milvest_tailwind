@@ -47,7 +47,11 @@ export default function Footer() {
           <div className="flex flex-col text-xs text-gray-500 md:block">
             <p>2022 Peter Kim</p>
             <div>
-              <a href="https://iconscout.com/icons/whatsapp" target="_blank">
+              <a
+                href="https://iconscout.com/icons/whatsapp"
+                rel="noreferrer"
+                target="_blank"
+              >
                 Whatsapp Icon
               </a>{" "}
               by{" "}
@@ -57,11 +61,16 @@ export default function Footer() {
               on <a href="https://iconscout.com">IconScout</a>
             </div>
             <div>
-              <a href="https://iconscout.com/icons/instagram" target="_blank">
+              <a
+                rel="noreferrer"
+                href="https://iconscout.com/icons/instagram"
+                target="_blank"
+              >
                 Instagram Icon
               </a>{" "}
               by{" "}
               <a
+                rel="noreferrer"
                 href="https://iconscout.com/contributors/unicons"
                 target="_blank"
               >
