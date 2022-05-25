@@ -39,7 +39,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="hidden text-gray-500 md:block">2022 Peter Kim</div>
+          <div className="hidden text-xs text-gray-500 md:block">2022 Peter Kim</div>
         </div>
       </footer>
     </section>
