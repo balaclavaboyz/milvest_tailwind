@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "../img/logo.webp";
+import instagram from "../img/black_instagram.svg";
+import whatsapp from "../img/black_whatsapp.svg";
 
 export default function Footer() {
   return (
@@ -9,14 +10,18 @@ export default function Footer() {
           <div className="flex flex-col items-center justify-between">
             {/* logo da milvest */}
             <p className="font-bold text-gray-700">Milvest</p>
-            <div className="flex justify-center space-x-4">
-              <a href="#">
-                <img src="" alt="" />
-                {/* socal instagram */}
-                <img src="" alt="" />
-                {/* whatsapp */}
-              </a>
-            </div>
+          </div>
+          <div className="flex justify-center space-x-4">
+            <a href="https://www.instagram.com/milvest_oficial/">
+              <img
+                src={instagram}
+                alt="link para instagram da milvest"
+                className="w-8"
+              />
+            </a>
+            <a href="https://wa.me/5511942419476">
+              <img src={whatsapp} alt="link para whatsapp" className="w-8" />
+            </a>
           </div>
 
           {/* list of links */}
@@ -39,7 +44,31 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="hidden text-xs text-gray-500 md:block">2022 Peter Kim</div>
+          <div className="flex flex-col text-xs text-gray-500 md:block">
+            <p>2022 Peter Kim</p>
+            <div>
+              <a href="https://iconscout.com/icons/whatsapp" target="_blank">
+                Whatsapp Icon
+              </a>{" "}
+              by{" "}
+              <a href="https://iconscout.com/contributors/unicons">
+                Unicons Font
+              </a>{" "}
+              on <a href="https://iconscout.com">IconScout</a>
+            </div>
+            <div>
+              <a href="https://iconscout.com/icons/instagram" target="_blank">
+                Instagram Icon
+              </a>{" "}
+              by{" "}
+              <a
+                href="https://iconscout.com/contributors/unicons"
+                target="_blank"
+              >
+                Unicons Font
+              </a>
+            </div>
+          </div>
         </div>
       </footer>
     </section>
