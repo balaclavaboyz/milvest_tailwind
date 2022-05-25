@@ -1,11 +1,10 @@
 import React from "react";
 import banner from "../img/banner.jpg";
-import StartIcon from '@mui/icons-material/Start';
+import StartIcon from "@mui/icons-material/Start";
 
 export default function Banner() {
   return (
     <>
-      {/* imagem do banner */}
       <div
         className="relative overflow-hidden bg-no-repeat bg-cover"
         style={{
@@ -24,12 +23,16 @@ export default function Banner() {
                 Para Cada Estação <br />
                 <span>Um Look Diferente</span>
               </h1>
-              <button
-                type="button"
-                class="inline-block px-7 py-3 border-2 border-white text-white font-medium text-sm leading-snug uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-                data-mdb-ripple="true"
-                data-mdb-ripple-color="light"
-              ><StartIcon></StartIcon></button>
+              <a href="https://milvest.vesti.mobi/">
+                <button
+                  type="button"
+                  class="inline-block px-7 py-3 border-2 border-white text-white font-medium text-sm leading-snug uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                  data-mdb-ripple="true"
+                  data-mdb-ripple-color="light"
+                >
+                  <StartIcon></StartIcon>
+                </button>
+              </a>
             </div>
           </div>
         </div>

@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function NoPage() {
   return (
-    <div>NoPage</div>
+    <>
+    <h1>404</h1>
+    </>
   )
 }

@@ -8,6 +8,7 @@ import Politica from "./pages/Politica";
 import NoPage from "./pages/NoPage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import WhatsappButton from "./components/WhatsappButton";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,6 +22,7 @@ root.render(
         <Route path="*" element={<NoPage></NoPage>}></Route>
       </Routes>
       <Footer></Footer>
+      <WhatsappButton></WhatsappButton>
     </BrowserRouter>
   </React.StrictMode>
 );
