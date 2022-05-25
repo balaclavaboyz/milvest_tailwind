@@ -1,59 +1,62 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 
 export default function Politica() {
   return (
     <>
       <div className="container flex flex-col mx-auto space-y-6 my-6">
-        <h1 className="text-3xl font-bold ">
-          Bem Vindo ao Política de Privacidade
-        </h1>
-        <p>
-          A sua privacidade é importante para nós. É política do Milvest
-          respeitar a sua privacidade em relação a qualquer informação sua que
-          possamos coletar no site<Link to='/'><span className="text-orange-500 font-bold"> Milvest</span></Link>, e outros sites que
-          possuímos e operamos.
-        </p>
-        <p>
-          Solicitamos informações pessoais apenas quando realmente precisamos
-          delas para lhe fornecer um serviço. Fazemo-lo por meios justos e
-          legais, com o seu conhecimento e consentimento. Também informamos por
-          que estamos coletando e como será usado.
-        </p>
-        <p>
-          Apenas retemos as informações coletadas pelo tempo necessário para
-          fornecer o serviço solicitado. Quando armazenamos dados, protegemos
-          dentro de meios comercialmente aceitáveis ​​para evitar perdas e
-          roubos, bem como acesso, divulgação, cópia, uso ou modificação não
-          autorizados.
-        </p>
-        <p>
-          Não compartilhamos informações de identificação pessoal publicamente
-          ou com terceiros, exceto quando exigido por lei.
-        </p>
-        <p>
-          O nosso site pode ter links para sites externos que não são operados
-          por nós. Esteja ciente de que não temos controle sobre o conteúdo e
-          práticas desses sites e não podemos aceitar responsabilidade por suas
-          respectivas políticas de privacidade.
-        </p>
-        <p>
-          Você é livre para recusar a nossa solicitação de informações pessoais,
-          entendendo que talvez não possamos fornecer alguns dos serviços
-          desejados.
-        </p>
-        <p>
-          O uso continuado de nosso site será considerado como aceitação de
-          nossas práticas em torno de privacidade e informações pessoais. Se
-          você tiver alguma dúvida sobre como lidamos com dados do usuário e
-          informações pessoais, entre em contacto connosco.
-        </p>
-        <br />
-        <h1 class="politica-t">Política de Cookies Milvest</h1>
-        <br />
-        <h2 class="politica-h2">O que são cookies?</h2>
+        <div className="container space-y-3 mb-6">
+          <h1 className="text-3xl">Bem Vindo ao Política de Privacidade</h1>
+          <hr />
+          <p>
+            A sua privacidade é importante para nós. É política do Milvest
+            respeitar a sua privacidade em relação a qualquer informação sua que
+            possamos coletar no site
+            <Link to="/">
+              <span className="text-orange-500 font-bold"> Milvest</span>
+            </Link>
+            , e outros sites que possuímos e operamos.
+          </p>
+          <p>
+            Solicitamos informações pessoais apenas quando realmente precisamos
+            delas para lhe fornecer um serviço. Fazemo-lo por meios justos e
+            legais, com o seu conhecimento e consentimento. Também informamos
+            por que estamos coletando e como será usado.
+          </p>
+          <p>
+            Apenas retemos as informações coletadas pelo tempo necessário para
+            fornecer o serviço solicitado. Quando armazenamos dados, protegemos
+            dentro de meios comercialmente aceitáveis ​​para evitar perdas e
+            roubos, bem como acesso, divulgação, cópia, uso ou modificação não
+            autorizados.
+          </p>
+          <p>
+            Não compartilhamos informações de identificação pessoal publicamente
+            ou com terceiros, exceto quando exigido por lei.
+          </p>
+          <p>
+            O nosso site pode ter links para sites externos que não são operados
+            por nós. Esteja ciente de que não temos controle sobre o conteúdo e
+            práticas desses sites e não podemos aceitar responsabilidade por
+            suas respectivas políticas de privacidade.
+          </p>
+          <p>
+            Você é livre para recusar a nossa solicitação de informações
+            pessoais, entendendo que talvez não possamos fornecer alguns dos
+            serviços desejados.
+          </p>
+          <p>
+            O uso continuado de nosso site será considerado como aceitação de
+            nossas práticas em torno de privacidade e informações pessoais. Se
+            você tiver alguma dúvida sobre como lidamos com dados do usuário e
+            informações pessoais, entre em contacto connosco.
+          </p>
+        </div>
+    <div className="container space-y-6">
+
+        <h1 class="text-2xl">Política de Cookies Milvest</h1>
+        <hr />
+        <h2 class="text-xl">O que são cookies?</h2>
         <p>
           Como é prática comum em quase todos os sites profissionais, este site
           usa cookies, que são pequenos arquivos baixados no seu computador,
@@ -63,7 +66,7 @@ export default function Politica() {
           esses cookies sejam armazenados, no entanto, isso pode fazer o
           downgrade ou 'quebrar' certos elementos da funcionalidade do site.
         </p>
-        <h2 class="politica-h2">Como usamos os cookies?</h2>
+        <h2 class="text-xl">Como usamos os cookies?</h2>
         <p>
           Utilizamos cookies por vários motivos, detalhados abaixo.
           Infelizmente, na maioria dos casos, não existem opções padrão do setor
@@ -72,7 +75,7 @@ export default function Politica() {
           deixe todos os cookies se não tiver certeza se precisa ou não deles,
           caso sejam usados ​​para fornecer um serviço que você usa.
         </p>
-        <h2 class="politica-h2">Desativar cookies</h2>
+        <h2 class="text-xl">Desativar cookies</h2>
         <p>
           Você pode impedir a configuração de cookies ajustando as configurações
           do seu navegador (consulte a Ajuda do navegador para saber como fazer
@@ -83,7 +86,7 @@ export default function Politica() {
           recomendável que você não desative os cookies.
         </p>
 
-        <h2 class="politica-h2">Cookies de Terceiros</h2>
+        <h2 class="text-xl">Cookies de Terceiros</h2>
         <p>
           Em alguns casos especiais, também usamos cookies fornecidos por
           terceiros confiáveis. A seção a seguir detalha quais cookies de
@@ -129,7 +132,7 @@ export default function Politica() {
             possível.
           </li>
         </ul>
-        <h2 class="politica-h2">Compromisso do Usuário</h2>
+        <h2 class="text-xl">Compromisso do Usuário</h2>
         <p>
           O usuário se compromete a fazer uso adequado dos conteúdos e da
           informação que o Milvest oferece no site e com caráter enunciativo,
@@ -155,7 +158,7 @@ export default function Politica() {
             anteriormente mencionados.
           </li>
         </ul>
-        <h2 class="politica-h2">Mais informações</h2>
+        <h2 class="text-xl">Mais informações</h2>
         <p>
           Esperemos que esteja esclarecido e, como mencionado anteriormente, se
           houver algo que você não tem certeza se precisa ou não, geralmente é
@@ -166,6 +169,7 @@ export default function Politica() {
           Esta política é efetiva a partir de <strong>Maio</strong>/
           <strong>2021</strong>.
         </p>
+    </div>
       </div>
     </>
   );
