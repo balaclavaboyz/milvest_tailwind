@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 export default function Galeria() {
   function importAll(r) {
@@ -11,7 +12,7 @@ export default function Galeria() {
 
   // function for random sizes for images
   const returnRandomWidth = () => {
-    const listwidth = ["col-span-4", "col-span-8", "col-span-12"];
+    const listwidth = ["col-span-4", "col-span-8", "col-span-4",'col-span-4'];
 
     const maximum = listwidth.length;
     const minimum = 0;
@@ -25,14 +26,15 @@ export default function Galeria() {
   return (
     <section className="container mx-auto ">
       <h2 className="font-bold text-3xl text-center pt-8 pb-12">Lançamentos</h2>
-      <div className="grid grid-flow-row-dense auto-rows-max grid-cols-12 place-items-center">
+      <div className="grid grid-flow-row-dense grid-cols-12 place-items-center">
         {images.map((image, index) => (
           <img
             className={returnRandomWidth() + " rounded-2xl p-3"}
             src={image}
             key={index}
-            alt="images da galeria da milvest"z
-          />
+            alt="images da galeria da milvest"
+            >
+          </img>
         ))}
       </div>
     </section>
