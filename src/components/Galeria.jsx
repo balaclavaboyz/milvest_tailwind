@@ -23,8 +23,8 @@ export default function Galeria() {
 
         let randomnumber =
             Math.floor(Math.random() * (maximum - minimum)) + minimum;
-        return new String(listwidth[randomnumber]);
-    };
+            return String(listwidth[randomnumber]);
+        };
     // end
 
     return (
