@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import CloseIcon from '@mui/icons-material/Close';
+import CloseIcon from "@mui/icons-material/Close";
 
 export default function Sidebar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -9,6 +9,7 @@ export default function Sidebar() {
                 <button
                     className="fixed z-30 flex items-center cursor-pointer right-10 top-6 md:hidden"
                     onClick={() => setIsOpen(!isOpen)}
+                    aria-label="abrir o menu lateral"
                 >
                     <svg
                         fill="#000"
@@ -27,8 +28,9 @@ export default function Sidebar() {
                     onClick={() => {
                         setIsOpen(!isOpen);
                     }}
+                    aria-label="fechar o menu lateral"
                 >
-                    <CloseIcon fontSize="large"/>
+                    <CloseIcon fontSize="large" />
                 </button>
             )}
             <div
