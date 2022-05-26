@@ -39,7 +39,10 @@ export default function Footer() {
                             </a>
                         </div>
                         <div className="flex flex-col space-y-3 text-white">
-                            <a href="/faq" className="hover:text-fuchsia-800 underline">
+                            <a
+                                href="/faq"
+                                className="hover:text-fuchsia-800 underline"
+                            >
                                 Faq
                             </a>
                             <a
@@ -63,7 +66,10 @@ export default function Footer() {
                                 Whatsapp Icon
                             </a>{" "}
                             by{" "}
-                            <a className="underline" href="https://iconscout.com/contributors/unicons">
+                            <a
+                                className="underline"
+                                href="https://iconscout.com/contributors/unicons"
+                            >
                                 Unicons Font
                             </a>{" "}
                             on <a href="https://iconscout.com">IconScout</a>
@@ -73,7 +79,7 @@ export default function Footer() {
                                 rel="noreferrer"
                                 href="https://iconscout.com/icons/instagram"
                                 target="_blank"
-        className="underline"
+                                className="underline"
                             >
                                 Instagram Icon
                             </a>{" "}
@@ -82,7 +88,7 @@ export default function Footer() {
                                 rel="noreferrer"
                                 href="https://iconscout.com/contributors/unicons"
                                 target="_blank"
-        className="underline"
+                                className="underline"
                             >
                                 Unicons Font
                             </a>
