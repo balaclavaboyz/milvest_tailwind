@@ -9,7 +9,7 @@ export default function Footer() {
                 <div className="container flex flex-col justify-between mx-auto px-6 py-10 space-y-8 md:flex-row md:space-y-0">
                     <div className="flex flex-col items-center justify-between">
                         {/* logo da milvest */}
-                        <p className="font-bold text-gray-700">Milvest</p>
+                        <p className="font-bold text-gray-300">Milvest</p>
                     </div>
                     <div className="flex justify-center space-x-4">
                         <a href="https://www.instagram.com/milvest_oficial/">
@@ -33,36 +33,37 @@ export default function Footer() {
                         <div className="flex flex-col space-y-3 text-white">
                             <a
                                 href="https://milvest.vesti.mobi/"
-                                className="hover:text-fuchsia-800"
+                                className="hover:text-fuchsia-800 underline"
                             >
                                 Catálogo/Pedidos
                             </a>
                         </div>
                         <div className="flex flex-col space-y-3 text-white">
-                            <a href="/faq" className="hover:text-fuchsia-800">
+                            <a href="/faq" className="hover:text-fuchsia-800 underline">
                                 Faq
                             </a>
                             <a
                                 href="/politica"
-                                className="hover:text-fuchsia-800"
+                                className="hover:text-fuchsia-800 underline"
                             >
                                 Política de Privacidade
                             </a>
                         </div>
                     </div>
 
-                    <div className="flex flex-col text-xs text-gray-500 md:block">
+                    <div className="flex flex-col text-xs text-gray-300 md:block">
                         <p>2022 Peter Kim</p>
                         <div>
                             <a
                                 href="https://iconscout.com/icons/whatsapp"
                                 rel="noreferrer"
                                 target="_blank"
+                                className="underline"
                             >
                                 Whatsapp Icon
                             </a>{" "}
                             by{" "}
-                            <a href="https://iconscout.com/contributors/unicons">
+                            <a className="underline" href="https://iconscout.com/contributors/unicons">
                                 Unicons Font
                             </a>{" "}
                             on <a href="https://iconscout.com">IconScout</a>
@@ -72,6 +73,7 @@ export default function Footer() {
                                 rel="noreferrer"
                                 href="https://iconscout.com/icons/instagram"
                                 target="_blank"
+        className="underline"
                             >
                                 Instagram Icon
                             </a>{" "}
@@ -80,6 +82,7 @@ export default function Footer() {
                                 rel="noreferrer"
                                 href="https://iconscout.com/contributors/unicons"
                                 target="_blank"
+        className="underline"
                             >
                                 Unicons Font
                             </a>
