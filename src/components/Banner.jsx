@@ -19,7 +19,7 @@ export default function Banner() {
         >
           <div class="flex justify-center items-center h-full">
             <div class="text-center text-white px-6 md:px-12">
-              <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
+              <h1 class="text-4xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
                 Para Cada Estação <br />
                 <span>Um Look Diferente</span>
               </h1>
