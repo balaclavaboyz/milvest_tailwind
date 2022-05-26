@@ -32,7 +32,7 @@ export default function Galeria() {
             <h2 className="font-bold text-3xl text-center pt-8 pb-12">
                 Lançamentos
             </h2>
-            <div className="grid grid-flow-row-dense grid-cols-12 place-items-center hidden md:block">
+            <div className="grid grid-flow-row-dense grid-cols-12 place-items-center md:grid hidden">
                 {images.map((image, index) => (
                     <img
                         className={returnRandomWidth() + " rounded-2xl p-3"}
