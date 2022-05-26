@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 export default function Faq() {
   return (
     <>
-      <div className="container mb-3 space-y-3 flex flex-col mx-auto text-center mt-6">
+      <div className="container mb-6 space-y-3 flex flex-col mx-auto text-center mt-6">
         <h1 className="text-3xl font-bold mb-8">Bem Vindo ao Faq!</h1>
 
         <h2 className="text-2xl">Qual horário comercial?</h2>

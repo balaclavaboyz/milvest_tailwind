@@ -32,11 +32,11 @@ export default function Sidebar() {
                 </button>
             )}
             <div
-                className={`z-40 top-0 right-0 fixed bg-blue-500 w-[60vw] h-full pt-20 pr-5 ${
+                className={`z-40 top-0 right-0 fixed bg-gray-900 w-[60vw] h-full pt-20 pr-5 ${
                     isOpen ? "translate-x-0" : "translate-x-full"
-                } ease-in-out duration-300 md:hidden bg-white opacity-70`}
+                } ease-in-out duration-300 md:hidden opacity-90`}
             >
-                <div className="flex flex-col text-black font-bold text-right space-y-6 text-2xl">
+                <div className="flex flex-col text-white font-bold text-right space-y-6 text-2xl">
                     <a href="/" className="">
                         Home
                     </a>
