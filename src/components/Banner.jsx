@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../img/banner.jpg";
+import banner from "../img/banner.webp";
 import StartIcon from "@mui/icons-material/Start";
 
 export default function Banner() {
