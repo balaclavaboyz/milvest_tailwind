@@ -9,11 +9,11 @@ export default function Navbar() {
                 <div className="flex space-x-6 items-center justify-center text-2xl hidden md:flex">
                     <div className="w-16">
                         <a href="/">
-                            <img src={logo} alt="" />
+                            <img src={logo} alt="Logo da milvest, link para homepage" />
                         </a>
                     </div>
                     <div className="flex flex-row justify-between space-x-6 ">
-                        <a href="/" className="">
+                        <a href="/">
                             Home
                         </a>
                         <a href="https://milvest.vesti.mobi/">
